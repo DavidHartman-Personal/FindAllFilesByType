@@ -6,7 +6,7 @@ public class FindFilesByType {
 
 	public static void main(String[] args) throws IOException {
 
-		File f = new File("/"); // current directory
+		File f = new File("/Users/davidhartman/test"); // current directory
 
 		FilenameFilter textFilter = new FilenameFilter() {
 			public boolean accept(File dir, String name) {
